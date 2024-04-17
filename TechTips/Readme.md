@@ -1,4 +1,4 @@
-[Back to MainMenu](https://github.com/kanesato/Private-Usage/tree/for-work-pc)
+[Back to MainMenu](../README.md)
 
 |#|Service|remarks|
 |---|---|---|
