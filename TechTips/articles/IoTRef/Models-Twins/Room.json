@@ -1,0 +1,17 @@
+{
+    "@id": "dtmi:sample:Room;2",
+    "@context": "dtmi:dtdl:context;2",
+    "@type": "Interface",
+    "displayName": "Room",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "RoomName",
+        "schema": "string"
+      },
+      {
+        "@type": "Relationship",
+        "name": "contains"
+      }
+    ]
+  }

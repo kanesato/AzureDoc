@@ -1,0 +1,15 @@
+{
+  "name": "private-usage",
+  "version": "1.0.0",
+  "description": "|#|Sections|Remarks|\r |--|---------|---------|\r |01|[Azure Docs](https://github.com/kanesato/Private-Usage/tree/for-work-pc/Azure%20Docs)|---|\r |02|[Tech Tips](https://github.com/kanesato/Private-Usage/tree/for-work-pc/Tech%20Tips)|---|",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
