@@ -2,5 +2,5 @@
 
 |#|Sections|Remarks|
 |--|---------|---------|
-|01|[Azure Docs](https://github.com/kanesato/AzureDoc/tree/main/Azure%20Docs)|---|
-|02|[Tech Tips](https://github.com/kanesato/AzureDoc/tree/main/TechTips)|---|
+|01|[Azure Docs](./Azure%20Docs/Readme.md)|---|
+|02|[Tech Tips](./TechTips/Readme.md)|---|
