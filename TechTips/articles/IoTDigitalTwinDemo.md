@@ -83,21 +83,6 @@
 - Click [run query] on the Azure Digital Twins Explorer to refresh the telemetry data<br>
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-# ■Other reference links
+# ■[IoT relevant reference links](./IoTDigitalTwin.md)
 
-- Azure Digital Twins Explorer と 3D Scenes Studio を試してみる<br>
-(https://qiita.com/Futo_Horio/items/8f4f58b1c26753e2b7d5)
- 
-
-- Azure Digital Twins getting started samples<br>
-(https://github.com/Azure-Samples/azure-digital-twins-getting-started/tree/main)
-
-
-- Learn about twin models and how to define them in Azure Digital Twins<br>
-(https://learn.microsoft.com/en-us/azure/digital-twins/concepts-models#model-overview)
