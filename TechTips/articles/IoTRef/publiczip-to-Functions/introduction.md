@@ -20,7 +20,7 @@ az functionapp deployment source config-zip --resource-group < resource group na
 
 ### e.g.
 ```bash
-az functionapp deployment source config-zip --resource-group "adt-demo" --name "adt-demo" --src "/Volumes/ExtraDisk/Github/Private-Usage/TechTips/articles/IoTRef/publiczip-to-Functions/publish.zip"
+az functionapp deployment source config-zip --resource-group "adt-demo" --name "adt-demo" --src "/Volumes/ExtraDisk/Github/AzureDoc/TechTips/articles/IoTRef/publiczip-to-Functions/publish.zip"
 ```
 
 

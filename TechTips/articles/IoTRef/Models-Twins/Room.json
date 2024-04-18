@@ -1,8 +1,8 @@
 {
-    "@id": "dtmi:sample:Room;2",
+    "@id": "dtmi:sample:room;2",
     "@context": "dtmi:dtdl:context;2",
     "@type": "Interface",
-    "displayName": "Room",
+    "displayName": "room",
     "contents": [
       {
         "@type": "Property",

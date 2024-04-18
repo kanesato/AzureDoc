@@ -24,6 +24,8 @@ pip install pytz
 
 
 ## - Copy the code below and save it as a Python file (e.g., `iothub-device.py`) on a Raspberry Pi.
+
+
 ```python
 # Copyright (c) Microsoft. All rights reserved.
 # Licensed under the MIT license. See LICENSE file in the project root for full license information.
@@ -50,7 +52,8 @@ from azure.iot.device import IoTHubDeviceClient, Message
 # ------------------
 # CONNECTION_STRING = os.getenv("IOTHUB_DEVICE_CONNECTION_STRING")
 # CONNECTION_STRING = ""
-CONNECTION_STRING = ""
+# Replace the value of CONNECTION_STRING with the primary connection string of the device you created in the Azure portal.
+CONNECTION_STRING = < device connection_string >
 
 # --- Definition of the BME280 sensor ---
 # BME280 sensor address (default address)
