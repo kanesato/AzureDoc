@@ -1,8 +1,8 @@
 {
-    "@id": "dtmi:sample:DigitalTwins:Thermostat2;1",
+    "@id": "dtmi:sample:DigitalTwins:thermostat;1",
     "@context": "dtmi:dtdl:context;2",
     "@type": "Interface",
-    "displayName": "Thermostat2",
+    "displayName": "thermostat",
     "contents": [
       {
         "@type": "Property",

@@ -17,10 +17,13 @@ Compress-Archive -Path C:\digital-twins-samples-main\AdtSampleApp\SampleFunction
 ```bash
 az functionapp deployment source config-zip --resource-group < resource group name > --name <Azure Functions Name > --src <full path of the publish.zip>
 ```
+[reference]:Deploy by using Azure CLIM<br>
+(https://learn.microsoft.com/en-us/azure/azure-functions/deployment-zip-push#cli)
+
 
 ### e.g.
 ```bash
-az functionapp deployment source config-zip --resource-group "adt-demo" --name "adt-demo" --src "/Volumes/ExtraDisk/Github/Private-Usage/TechTips/articles/IoTRef/publiczip-to-Functions/publish.zip"
+az functionapp deployment source config-zip --resource-group "adt-demo" --name "adt-demo" --src "/Volumes/ExtraDisk/Github/AzureDoc/TechTips/articles/IoTRef/publiczip-to-Functions/publish.zip"
 ```
 
 

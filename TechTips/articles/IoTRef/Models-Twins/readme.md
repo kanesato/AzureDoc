@@ -9,25 +9,25 @@
 
 - ### Create two models on a specific Digital Twins instance 
 ```bash
-az dt model create -n "ADT-demo-1.api.jpe.digitaltwins.azure.net" --models /Volumes/ExtraDisk/Github/Private-Usage/TechTips/articles/IoTRef/Models-Twins/Room.json
+az dt model create -n "adt-demo.api.jpe.digitaltwins.azure.net" --models /Volumes/ExtraDisk/Github/AzureDoc/TechTips/articles/IoTRef/Models-Twins/Room.json
 ```
 
 ```bash
-az dt model create -n "ADT-demo-1.api.jpe.digitaltwins.azure.net" --models /Volumes/ExtraDisk/Github/Private-Usage/TechTips/articles/IoTRef/Models-Twins/Thermostat.json
+az dt model create -n "adt-demo.api.jpe.digitaltwins.azure.net" --models /Volumes/ExtraDisk/Github/AzureDoc/TechTips/articles/IoTRef/Models-Twins/Thermostat.json
 ```
 
 - ### Create two twins on a specific Digital Twins instance
 ```bash
-az dt twin create -n "ADT-demo-1.api.jpe.digitaltwins.azure.net" --dtmi "dtmi:sample:Room;2" --twin-id room1
+az dt twin create -n "adt-demo.api.jpe.digitaltwins.azure.net" --dtmi "dtmi:sample:room;2" --twin-id room
 ```
 
 ```bash
-az dt twin create -n "ADT-demo-1.api.jpe.digitaltwins.azure.net" --dtmi "dtmi:sample:DigitalTwins:Thermostat2;1" --twin-id Thermostat2
+az dt twin create -n "adt-demo.api.jpe.digitaltwins.azure.net" --dtmi "dtmi:sample:DigitalTwins:thermostat;1" --twin-id thermostat
 ```
 
 - ### Update a relationship between two twins on a specific Digital Twins instance
 ```bash
-az dt twin relationship create -n "ADT-demo-1.api.jpe.digitaltwins.azure.net" --relationship-id room --relationship contains --twin-id room1 --target Thermostat2
+az dt twin relationship create -n "adt-demo.api.jpe.digitaltwins.azure.net" --relationship-id room --relationship contains --twin-id room --target thermostat
 ```
 
 
