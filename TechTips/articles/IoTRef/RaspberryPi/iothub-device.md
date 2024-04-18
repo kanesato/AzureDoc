@@ -49,8 +49,8 @@ from azure.iot.device import IoTHubDeviceClient, Message
 # --- Defination ---
 # ------------------
 # CONNECTION_STRING = os.getenv("IOTHUB_DEVICE_CONNECTION_STRING")
-# CONNECTION_STRING = "HostName=poc-iothub-kaneshiro.azure-devices.net;DeviceId=poc-device-rasp-01;SharedAccessKey=AQBxMGntQsCQvx08+LB9Rwf78d7s1FTL6AIoTCPrF+w="
-CONNECTION_STRING = "HostName=poc-iothub-kaneshiro.azure-devices.net;DeviceId=thermostat1;SharedAccessKey=eI7Onqn3p1qlq0S0Rb1ilyoLnfs6JVT6oAIoTMj/9/Y="
+# CONNECTION_STRING = ""
+CONNECTION_STRING = ""
 
 # --- Definition of the BME280 sensor ---
 # BME280 sensor address (default address)
