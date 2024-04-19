@@ -1,3 +1,5 @@
+[Back to the demo's homepage](../../IoTDigitalTwinDemo.md#azure-functions)
+
 ## How to create the functions' zip files
 
 1. ### Copy the SampleFunctionsApp folder to a Windows machine.

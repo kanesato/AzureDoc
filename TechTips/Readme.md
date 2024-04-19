@@ -10,7 +10,7 @@
 |-|[Backup](./articles/Backup.md)|---|
 |-|[Database](./articles/AzureDatabase.md)|---|
 |-|[Github](./articles/github.md)|---|
-|-|[IoT](./articles/IoT.md)|---|
+|-|[IoT](./articles/IoTrelatedlinks.md)|---|
 |-|[IoT Digital Twin Demo](./articles/IoTDigitalTwinDemo.md)|---|
 |-|[KUSTO](./articles/KUSTOクエリ.md)|---|
 |-|[Linux](./articles/Linux.md)|---|
@@ -21,8 +21,3 @@
 |-|[VMware](./articles/VMware.md)|---|
 |-|[■Raspberry Pi/PICO](./articles/RasPi.md)|---|
 |-|[■Office/CSA](./articles/csa.md)|---|
-
-
-
-
-
