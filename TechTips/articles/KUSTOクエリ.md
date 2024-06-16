@@ -44,6 +44,13 @@ TargetPort = tostring(TargetPortInt)
 | project TimeGenerated, SourceIP,SourcePort, TargetIP, TargetPort, Protocol, Action, Rule
 ```
 
+```Kusto
+AzureDiagnostics
+| where SourceIP == "192.168.0.0"
+| top 1000 by TimeGenerated desc
+| project TimeGenerated, SourceIP,SourcePort_d, DestinationIp_s, DestinationPort_d, Protocol_s, Action_s
+```
+
 ---
 
 ## +Azure Firewall IDS Log
