@@ -1,5 +1,10 @@
 
 # **■AFWログ クエリ集**
+
+## KUSTO library
+https://azure.github.io/fta-kusto100knocks/ja/docs/
+
+
 ## +Azure Firewall Application Rule Log
 
 ```Kusto
